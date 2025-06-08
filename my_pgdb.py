@@ -1,9 +1,8 @@
 import psycopg2  # type: ignore
 
 class PGDatabase: # класс для работы с бд
-    def __init__(self, host, port, database, user, password):
+    def __init__(self, host, database, user, password):
         self.host = host
-        self.port = port
         self.database = database  # Исправлено на правильное имя атрибута
         self.user = user
         self.password = password
@@ -11,7 +10,6 @@ class PGDatabase: # класс для работы с бд
         # Подключение к базе данных
         self.conn = psycopg2.connect(
             host=host,
-            port=port,
             database=database,
             user=user,
             password=password
