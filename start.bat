@@ -1,0 +1,1 @@
+C:\Users\User\Desktop\Simulator\Auto-and-deploy\venv\scripts\python.exe C:\Users\User\Desktop\Simulator\Auto-and-deploy\generate-sales-data.py.
